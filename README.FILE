@@ -1,0 +1,22 @@
+|| QR Code Generator ||
+
+A simple and responsive QR Code Generator built using || HTML || CSS and JavaScript. This project allows users to enter any text or URL and instantly generate a QR code for it.
+
+|| 🚀 Features ||
+
+- Generate QR codes for URLs, text, or any string input.
+- Live preview of the QR code.
+- Simple and user-friendly interface.
+- Responsive design for mobile and desktop.
+
+|| 🛠️ Built With ||
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+|| 📂 Folder Structure
+1. Clone this repository or download the source code.
+
+   ```bash
+   git clone https://github.com/your-farhanbaber/qr-code-generator.git
