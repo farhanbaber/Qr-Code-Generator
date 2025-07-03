@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(assets/360_F_529863341_cxKCD4AdKCnQUSLxIRENxFfKSF1zjkVy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fluid-container{
+    width: 40%;
+    height: auto;
+    margin-top: 10rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 15px rgb(247, 216, 216);
+    background-color: rgb(41, 41, 88,0.521);
+    backdrop-filter: blur(10);
+
+}
+#h-one{
+    font-size: 50px;
+    color: rgb(178, 208, 235);
+}
+#text{
+    padding: 10px 20px;
+    width: 60%;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+#btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(9, 4, 53);
+    cursor: pointer;
+    transition: 0.5s ease-in-out all;
+}
+#btn:active{
+    transform: scale(0.90);
+}
+#btn:hover{
+    transition: 0.5s ease-in-out all;
+}
