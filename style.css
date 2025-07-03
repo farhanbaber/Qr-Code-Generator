@@ -72,15 +72,11 @@ body{
     #btn {
         width: 100%;
     }
-    #QrCodeDiv{
-        position: relative;
-        left: 4rem;
-       
-    }
+    
 }
 
 /* Small screens (mobile devices) */
-@media (max-width: 480px) {
+@media (max-width: 414px) {
     html, body {
         height: 100%;
     }
@@ -106,5 +102,10 @@ body{
     #btn {
         width: 100%;
         font-size: 1rem;
+    }
+    #QrCodeDiv{
+        position: relative;
+        left: 4rem;
+       
     }
 }
