@@ -71,7 +71,11 @@ body{
     #btn {
         width: 100%;
     }
-    
+    #QrCodeDiv{
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* Small screens (mobile devices) */
