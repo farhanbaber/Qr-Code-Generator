@@ -46,3 +46,64 @@ body{
 #btn:hover{
     transition: 0.5s ease-in-out all;
 }
+@media (max-width: 768px) {
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        min-height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .fluid-container {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    #h-one {
+        font-size: 2rem;
+    }
+
+    #text,
+    #btn {
+        width: 100%;
+    }
+    #QrCodeDiv{
+        width: 50%;
+        position: relative;
+        right: 1rem;
+    }
+}
+
+/* Small screens (mobile devices) */
+@media (max-width: 480px) {
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        min-height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 0.5rem;
+    }
+
+    .fluid-container {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    #h-one {
+        font-size: 1.5rem;
+    }
+
+    #text,
+    #btn {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
